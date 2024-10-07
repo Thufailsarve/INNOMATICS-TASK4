@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Open Sans,Arial,sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+    line-height: 1.7em;
+    font-weight: 500;
+}
+.fixed-but {
+    color: #FFFFFF !important;
+    border-width: 1px !important;
+    font-size: 17px;
+    background-color: #e63135;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 5px 5px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: rotate(270deg);
+    z-index: 9999;
+    margin-right: -50px;
+    cursor: pointer;
+}
+.online-but {
+    background-color: red;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    width: 126px;
+    height: 40px;
+    padding: 0px 15px;
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+    z-index: 1000;
+    border: 0px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.top-nav {
+    background-color: #e83131;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.leftside {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.enquire {
+    margin-left: 50px;
+    color: white;
+    font-weight: 700;
+}
+.call-button {
+    background-color: black;
+    color: white;
+    height: 35px;
+    border-radius: 10px;
+    border-color: white;
+    margin: 3px 12px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.call-button:hover {
+    border-color: black;
+    transition: calc(0.3s);
+}
+.rightside {
+    display: flex;
+    margin-right: 50px;
+}
+.alternate {
+    color: white;
+}
+.numbers {
+    background-color: #e83131;
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.sec-nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    z-index: 100000000;
+}
+.logo {
+    margin: 10px 0px;
+}
+.logo img {
+    width: 300px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 8px;
+    font-size: 18px;
+}
+.pay-now {
+    margin-right: 60px;
+}
+.pay-but {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.banner img {
+   width: 100%;
+   height: auto;
+   display: block;
+
+}
+.content {
+    display: flex;
+    margin: 60px;
+    
+}
+.first-content {
+    width: 50%;
+
+}
+.heading {
+    font-size: 40px;
+    line-height: 50px;
+}
+.side-head {
+    font-size: 19px;
+    padding: 10px 0px;
+}
+.second-content {
+    margin-left: 50px;
+    width: 50%;
+}
+.boxes {
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 1px solid rgb(227, 217, 217);
+    margin: 20px;
+    width: 30%;
+    padding: 30px;
+    text-align: center;
+    
+    
+}
+
+.view-but {
+    background-color: #e83131;
+    margin: 20px 0px;
+    padding: 10px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+p {
+    line-height: 25px;
+}
+.black-sec {
+    background-color: black;
+    color: white;
+
+}
+.black-sec h1 {
+    text-align: center;
+    font-size: 35px;
+    padding: 30px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.box1 {
+    border: 1px solid white;
+    margin: 20px;
+    
+    width: 350px;
+    height: 420px;
+}
+.rm-but {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    width: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.rm-but:hover{
+    border: none;
+}
+.points {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.advantages {
+    margin-right: 100px;
+    margin: 30px;
+    /* width: 40%; */
+}
+.advantages .adv-points {
+    border: 1px solid black;
+    padding-left: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-right: 50px;
+}
+
+.video {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+iframe {
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.vid-but {
+    display: grid;
+    justify-content: center;
+    
+}
+
+.more-videos {
+    margin: 40px;
+    width: 250px;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: rgb(254, 218, 218);
+    font-size: 18px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    
+}
+.footer-content {
+    display: flex;
+    margin: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.logo-content {
+    width:30%;
+    margin-top: 30px;
+}
+.courses {
+    width: 30%;
+    margin-left: 80px;
+    margin-top: 30px;
+    
+}
+.courses ul {
+    list-style: none;
+}
+.courses strong {
+
+}
+.contant-info {
+    width: 30%;
+    margin-top: 30px;
+}
+
+
+
+
+.lastfooter {
+    background-color: #444444;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+@media (max-width: 1266px) {
+    .first-content {
+        width: 40%;
+    }
+    .second-content {
+        margin-left: 0px;
+        width: 60%;
+    }
+    
+}
+@media (max-width: 1033px) {
+    .content {
+        display: grid;
+        
+    }
+    .first-content {
+        width: 100%;
+        text-align: center;
+
+    }
+    .second-content {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .logo img{
+        width: 180px;
+    }
+    .logo-content {
+        width: 100%;
+    }
+    .contant-info {
+        width: 60%;
+    }
+    .courses {
+        width: 30%;
+        margin-left: 30px;
+        
+    }
+}
+@media (max-width: 899px) {
+    a {
+        font-size: 15px;
+    }
+    .pay-but {
+        
+        padding: 6px;
+        font-size: 15px;
+        width: 120px;
+    }
+}
+@media (max-width: 737px) {
+    .logo img{
+        width: 140px;
+    }
+    a {
+        font-size: 12px;
+    }
+    .second-content .box {
+        width: 100%;
+    }
+
+}
